@@ -9,6 +9,10 @@ app.post("/",function(request,response){
     response.send("welcome");
 })
 
+app.post("/",function(request,response){
+    response.send("welcome again");
+})
+
 app.listen(4000,function(err,res){
     res.send("hi");
 })
